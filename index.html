@@ -77,8 +77,8 @@
   <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/icon.png">
+  <link rel="apple-touch-icon" href="static/images/icon.png">
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -334,7 +334,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+      Land-cover understanding in remote sensing increasingly demands taxonomy-agnostic systems that generalize across datasets while remaining spatially precise and interpretable. We study a geometry-first discovery-and-interpretation setting under cross-dataset domain shift, where candidate regions are delineated class-agnostically and supervision avoids lexical class names via anonymized identifiers. Complementary to open-set recognition and open-world learning, we focus on coupling class-agnostic mask evidence with taxonomy-grounded scene interpretation, rather than unknown rejection or continual class expansion. We propose MVT, a three-stage framework that (i) extracts boundary-faithful region masks using SAM2 with domain adaptation, (ii) performs mask-grounded semantic tagging and scene description generation via dual-step LoRA fine-tuning of multimodal LLMs, and (iii) evaluates outputs with LLM-as-judge scoring calibrated by stratified expert ratings. On cross-dataset segmentation transfer (train on OpenEarthMap, evaluate on LoveDA), domain-adapted SAM2 improves mask quality; meanwhile, dual-step MLLM fine-tuning yields more accurate taxonomy-aligned tags and more informative mask-grounded scene descriptions. Human evaluation shows strong agreement with LLM-as-judge scores for both tasks. Ablations highlight the importance of each MVT component. Our work demonstrates the potential of synergistic vision-language models for domain-adaptive, taxonomy-agnostic land-cover understanding in remote sensing imagery.
           </p>
         </div>
       </div>
@@ -453,7 +453,7 @@
       <h2 class="title">Poster</h2>
 
       <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/IGARSS_CRDT__CLASS_AGNOSTIC_REGION_DISCOVERY_UNDER_DOMAIN_SHIFT_AND_TAXONOMY_GROUNDED_LAND_COVER_INTERPRETATION_IN_REMOTE_SENSING_IMAGERY.pdf" width="100%" height="550">
           </iframe>
         
       </div>
@@ -473,12 +473,11 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre id="bibtex-code"><code>@article{@articlechen2025osda,
+  title={OSDA: A Framework for Open-Set Discovery and Automatic Interpretation of Land-cover in Remote Sensing Imagery},
+  author={Chen, Siyi and Wang, Kai and Pang, Weicong and Yang, Ruiming and Chen, Ziru and Gao, Renjun and Lau, Alexis Kai Hon and Gu, Dasa and Zhang, Chenchen and Li, Cheng},
+  journal={arXiv preprint arXiv:2509.18693},
+  year={2025}
 }</code></pre>
     </div>
 </section>
